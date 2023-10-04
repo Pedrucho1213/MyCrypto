@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F66D91C2ABE145D0082B634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F66D91B2ABE145D0082B634 /* AppDelegate.swift */; };
-		2F66D91E2ABE145D0082B634 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F66D91D2ABE145D0082B634 /* SceneDelegate.swift */; };
-		2F66D9202ABE145D0082B634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F66D91F2ABE145D0082B634 /* ViewController.swift */; };
-		2F66D9232ABE145D0082B634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F66D9212ABE145D0082B634 /* Main.storyboard */; };
+		2F3C231E2AC60DFC00600139 /* CoinError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C231D2AC60DFC00600139 /* CoinError.swift */; };
+		2F3C23202AC6187000600139 /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C231F2AC6187000600139 /* HTTP.swift */; };
+		2F3C23222AC619BD00600139 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C23212AC619BD00600139 /* EndPoint.swift */; };
+		2F4085892ACC7FF0009ABE64 /* CoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4085882ACC7FF0009ABE64 /* CoinService.swift */; };
+		2F40858B2ACC88B8009ABE64 /* HomeControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F40858A2ACC88B8009ABE64 /* HomeControllerViewModel.swift */; };
+		2F48ACC72AC4B204001DC14F /* ViewCryptoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48ACC62AC4B204001DC14F /* ViewCryptoController.swift */; };
+		2F48ACC92AC4C060001DC14F /* ViewCryptoControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48ACC82AC4C060001DC14F /* ViewCryptoControllerViewModel.swift */; };
 		2F66D9252ABE145E0082B634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F66D9242ABE145E0082B634 /* Assets.xcassets */; };
 		2F66D9282ABE145E0082B634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F66D9262ABE145E0082B634 /* LaunchScreen.storyboard */; };
 		2F66D9332ABE145E0082B634 /* MyPerfectJobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F66D9322ABE145E0082B634 /* MyPerfectJobTests.swift */; };
 		2F66D93D2ABE145E0082B634 /* MyPerfectJobUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F66D93C2ABE145E0082B634 /* MyPerfectJobUITests.swift */; };
 		2F66D93F2ABE145E0082B634 /* MyPerfectJobUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F66D93E2ABE145E0082B634 /* MyPerfectJobUITestsLaunchTests.swift */; };
+		2F66D94C2ABE3E910082B634 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F66D94B2ABE3E910082B634 /* Constants.swift */; };
+		2F66D94E2ABE42DE0082B634 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F66D94D2ABE42DE0082B634 /* Coin.swift */; };
+		2F66D9502ABE44C20082B634 /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F66D94F2ABE44C20082B634 /* CoinCell.swift */; };
+		3FF6A0B566F69A9CBEC76BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6AD772796D44EC373A73D /* AppDelegate.swift */; };
+		3FF6A6C0BADAF9168DAA0979 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6A294C9CABF7C3B4AABCD /* SceneDelegate.swift */; };
+		3FF6A8188E8716B9F3B8ECF3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6A88902B02D46C2557312 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F3C231D2AC60DFC00600139 /* CoinError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinError.swift; sourceTree = "<group>"; };
+		2F3C231F2AC6187000600139 /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		2F3C23212AC619BD00600139 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		2F4085882ACC7FF0009ABE64 /* CoinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinService.swift; sourceTree = "<group>"; };
+		2F40858A2ACC88B8009ABE64 /* HomeControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllerViewModel.swift; sourceTree = "<group>"; };
+		2F48ACC62AC4B204001DC14F /* ViewCryptoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCryptoController.swift; sourceTree = "<group>"; };
+		2F48ACC82AC4C060001DC14F /* ViewCryptoControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCryptoControllerViewModel.swift; sourceTree = "<group>"; };
 		2F66D9182ABE145D0082B634 /* MyPerfectJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPerfectJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F66D91B2ABE145D0082B634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F66D91D2ABE145D0082B634 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F66D91F2ABE145D0082B634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2F66D9222ABE145D0082B634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F66D9242ABE145E0082B634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F66D9272ABE145E0082B634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F66D9292ABE145E0082B634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +61,12 @@
 		2F66D9382ABE145E0082B634 /* MyPerfectJobUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPerfectJobUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F66D93C2ABE145E0082B634 /* MyPerfectJobUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPerfectJobUITests.swift; sourceTree = "<group>"; };
 		2F66D93E2ABE145E0082B634 /* MyPerfectJobUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPerfectJobUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F66D94B2ABE3E910082B634 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2F66D94D2ABE42DE0082B634 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		2F66D94F2ABE44C20082B634 /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
+		3FF6A294C9CABF7C3B4AABCD /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FF6A88902B02D46C2557312 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		3FF6AD772796D44EC373A73D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +117,13 @@
 		2F66D91A2ABE145D0082B634 /* MyPerfectJob */ = {
 			isa = PBXGroup;
 			children = (
-				2F66D91B2ABE145D0082B634 /* AppDelegate.swift */,
-				2F66D91D2ABE145D0082B634 /* SceneDelegate.swift */,
-				2F66D91F2ABE145D0082B634 /* ViewController.swift */,
-				2F66D9212ABE145D0082B634 /* Main.storyboard */,
-				2F66D9242ABE145E0082B634 /* Assets.xcassets */,
-				2F66D9262ABE145E0082B634 /* LaunchScreen.storyboard */,
 				2F66D9292ABE145E0082B634 /* Info.plist */,
+				3FF6A6663F547289E2CCE364 /* API */,
+				3FF6A6FA958CF27F96F62C9B /* Models */,
+				3FF6A6A31F098F8AA17F23E5 /* Controllers */,
+				3FF6A3470564A743A2FAB11A /* ViewModels */,
+				3FF6ACB7FD5D244101A5C41E /* Views */,
+				3FF6A932939A9350F5B8524C /* Supporting */,
 			);
 			path = MyPerfectJob;
 			sourceTree = "<group>";
@@ -125,6 +143,63 @@
 				2F66D93E2ABE145E0082B634 /* MyPerfectJobUITestsLaunchTests.swift */,
 			);
 			path = MyPerfectJobUITests;
+			sourceTree = "<group>";
+		};
+		3FF6A3470564A743A2FAB11A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2F48ACC82AC4C060001DC14F /* ViewCryptoControllerViewModel.swift */,
+				2F40858A2ACC88B8009ABE64 /* HomeControllerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3FF6A6663F547289E2CCE364 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2F3C231F2AC6187000600139 /* HTTP.swift */,
+				2F3C23212AC619BD00600139 /* EndPoint.swift */,
+				2F4085882ACC7FF0009ABE64 /* CoinService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3FF6A6A31F098F8AA17F23E5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FF6A88902B02D46C2557312 /* HomeController.swift */,
+				2F48ACC62AC4B204001DC14F /* ViewCryptoController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3FF6A6FA958CF27F96F62C9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F66D94D2ABE42DE0082B634 /* Coin.swift */,
+				2F3C231D2AC60DFC00600139 /* CoinError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3FF6A932939A9350F5B8524C /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				2F66D9242ABE145E0082B634 /* Assets.xcassets */,
+				2F66D9262ABE145E0082B634 /* LaunchScreen.storyboard */,
+				3FF6A294C9CABF7C3B4AABCD /* SceneDelegate.swift */,
+				3FF6AD772796D44EC373A73D /* AppDelegate.swift */,
+				2F66D94B2ABE3E910082B634 /* Constants.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		3FF6ACB7FD5D244101A5C41E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F66D94F2ABE44C20082B634 /* CoinCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +308,6 @@
 			files = (
 				2F66D9282ABE145E0082B634 /* LaunchScreen.storyboard in Resources */,
 				2F66D9252ABE145E0082B634 /* Assets.xcassets in Resources */,
-				2F66D9232ABE145D0082B634 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +332,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F66D9202ABE145D0082B634 /* ViewController.swift in Sources */,
-				2F66D91C2ABE145D0082B634 /* AppDelegate.swift in Sources */,
-				2F66D91E2ABE145D0082B634 /* SceneDelegate.swift in Sources */,
+				3FF6A8188E8716B9F3B8ECF3 /* HomeController.swift in Sources */,
+				3FF6A6C0BADAF9168DAA0979 /* SceneDelegate.swift in Sources */,
+				2F48ACC92AC4C060001DC14F /* ViewCryptoControllerViewModel.swift in Sources */,
+				3FF6A0B566F69A9CBEC76BA3 /* AppDelegate.swift in Sources */,
+				2F3C23222AC619BD00600139 /* EndPoint.swift in Sources */,
+				2F48ACC72AC4B204001DC14F /* ViewCryptoController.swift in Sources */,
+				2F3C23202AC6187000600139 /* HTTP.swift in Sources */,
+				2F3C231E2AC60DFC00600139 /* CoinError.swift in Sources */,
+				2F40858B2ACC88B8009ABE64 /* HomeControllerViewModel.swift in Sources */,
+				2F66D94E2ABE42DE0082B634 /* Coin.swift in Sources */,
+				2F66D9502ABE44C20082B634 /* CoinCell.swift in Sources */,
+				2F4085892ACC7FF0009ABE64 /* CoinService.swift in Sources */,
+				2F66D94C2ABE3E910082B634 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +381,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2F66D9212ABE145D0082B634 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F66D9222ABE145D0082B634 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2F66D9262ABE145E0082B634 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +517,6 @@
 				INFOPLIST_FILE = MyPerfectJob/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +543,6 @@
 				INFOPLIST_FILE = MyPerfectJob/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
