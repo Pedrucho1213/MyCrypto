@@ -281,7 +281,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2F66D9132ABE145D0082B634 /* Build configuration list for PBXProject "MyCripto" */;
+			buildConfigurationList = 2F66D9132ABE145D0082B634 /* Build configuration list for PBXProject "MyCrypto" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -633,7 +633,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F66D9132ABE145D0082B634 /* Build configuration list for PBXProject "MyCripto" */ = {
+		2F66D9132ABE145D0082B634 /* Build configuration list for PBXProject "MyCrypto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F66D9402ABE145E0082B634 /* Debug */,
