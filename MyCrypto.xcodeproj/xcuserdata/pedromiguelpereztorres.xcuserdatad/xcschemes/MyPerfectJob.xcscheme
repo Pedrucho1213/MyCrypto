@@ -16,7 +16,7 @@
                BlueprintIdentifier = "2F66D9172ABE145D0082B634"
                BuildableName = "MyPerfectJob.app"
                BlueprintName = "MyPerfectJob"
-               ReferencedContainer = "container:MyPerfectJob.xcodeproj">
+               ReferencedContainer = "container:MyCripto.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "2F66D9172ABE145D0082B634"
             BuildableName = "MyPerfectJob.app"
             BlueprintName = "MyPerfectJob"
-            ReferencedContainer = "container:MyPerfectJob.xcodeproj">
+            ReferencedContainer = "container:MyCripto.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
